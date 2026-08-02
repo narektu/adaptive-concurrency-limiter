@@ -1,0 +1,38 @@
+{
+  "name": "adaptive-concurrency-limiter",
+  "version": "0.0.0",
+  "description": "Adaptive, TCP-Vegas-inspired concurrency limiting for Node.js.",
+  "keywords": [
+    "concurrency",
+    "rate-limiting",
+    "load-shedding",
+    "backpressure",
+    "resilience",
+    "congestion-control",
+    "admission-control"
+  ],
+  "license": "MIT",
+  "author": "Narek Tutundzhian <72946194+narektu@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narektu/adaptive-concurrency-limiter.git"
+  },
+  "homepage": "https://github.com/narektu/adaptive-concurrency-limiter#readme",
+  "bugs": {
+    "url": "https://github.com/narektu/adaptive-concurrency-limiter/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ]
+}
