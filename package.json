@@ -12,7 +12,7 @@
     "admission-control"
   ],
   "license": "MIT",
-  "author": "Narek Tutundzhian <72946194+narektu@users.noreply.github.com>",
+  "author": "Narek Tutundzhian",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/narektu/adaptive-concurrency-limiter.git"
