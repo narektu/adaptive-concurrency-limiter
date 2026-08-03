@@ -41,8 +41,10 @@
     "bench": "tsx bench/run-comparison.ts"
   },
   "devDependencies": {
+    "@types/autocannon": "^7.12.7",
     "@types/express": "^5.0.6",
     "@types/node": "^26.1.2",
+    "autocannon": "^8.0.0",
     "express": "^5.2.1",
     "fast-check": "^4.9.0",
     "tsup": "^8.5.1",
