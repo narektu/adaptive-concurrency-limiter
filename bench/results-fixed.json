@@ -1,0 +1,606 @@
+{
+  "stats": {
+    "url": "http://localhost:3000/",
+    "connections": 200,
+    "sampleInt": 1000,
+    "pipelining": 1,
+    "duration": 30.15,
+    "samples": 30,
+    "start": "2026-08-03T17:25:19.068Z",
+    "finish": "2026-08-03T17:25:49.221Z",
+    "errors": 0,
+    "timeouts": 0,
+    "mismatches": 0,
+    "non2xx": 180490,
+    "resets": 0,
+    "1xx": 0,
+    "2xx": 41284,
+    "3xx": 0,
+    "4xx": 180490,
+    "5xx": 0,
+    "statusCodeStats": {
+      "200": {
+        "count": 41284
+      },
+      "429": {
+        "count": 180490
+      }
+    },
+    "latency": {
+      "average": 26.66,
+      "mean": 26.66,
+      "stddev": 27.76,
+      "min": 19,
+      "max": 381,
+      "p0_001": 19,
+      "p0_01": 19,
+      "p0_1": 19,
+      "p1": 19,
+      "p2_5": 19,
+      "p10": 19,
+      "p25": 19,
+      "p50": 20,
+      "p75": 22,
+      "p90": 45,
+      "p97_5": 49,
+      "p99": 55,
+      "p99_9": 360,
+      "p99_99": 374,
+      "p99_999": 377,
+      "totalCount": 221774
+    },
+    "requests": {
+      "average": 7393.07,
+      "mean": 7393.07,
+      "stddev": 305.83,
+      "min": 5993,
+      "max": 7614,
+      "total": 221774,
+      "p0_001": 5995,
+      "p0_01": 5995,
+      "p0_1": 5995,
+      "p1": 5995,
+      "p2_5": 5995,
+      "p10": 7043,
+      "p25": 7411,
+      "p50": 7483,
+      "p75": 7547,
+      "p90": 7555,
+      "p97_5": 7615,
+      "p99": 7615,
+      "p99_9": 7615,
+      "p99_99": 7615,
+      "p99_999": 7615,
+      "sent": 221974
+    },
+    "throughput": {
+      "average": 2069862.4,
+      "mean": 2069862.4,
+      "stddev": 94533.39,
+      "min": 1652239,
+      "max": 2150717,
+      "total": 62095700,
+      "p0_001": 1652735,
+      "p0_01": 1652735,
+      "p0_1": 1652735,
+      "p1": 1652735,
+      "p2_5": 1652735,
+      "p10": 1943551,
+      "p25": 2071551,
+      "p50": 2087935,
+      "p75": 2111487,
+      "p90": 2146303,
+      "p97_5": 2152447,
+      "p99": 2152447,
+      "p99_9": 2152447,
+      "p99_99": 2152447,
+      "p99_999": 2152447
+    }
+  },
+  "timeline": [
+    {
+      "time": 1785777919374,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777919603,
+      "limit": 50,
+      "inFlight": 45
+    },
+    {
+      "time": 1785777919862,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777920112,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777920364,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777920616,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777920868,
+      "limit": 50,
+      "inFlight": 50
+    },
+    {
+      "time": 1785777921135,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777921382,
+      "limit": 50,
+      "inFlight": 43
+    },
+    {
+      "time": 1785777921637,
+      "limit": 50,
+      "inFlight": 50
+    },
+    {
+      "time": 1785777921889,
+      "limit": 50,
+      "inFlight": 47
+    },
+    {
+      "time": 1785777922143,
+      "limit": 50,
+      "inFlight": 47
+    },
+    {
+      "time": 1785777922399,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777922653,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777922905,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777923159,
+      "limit": 50,
+      "inFlight": 38
+    },
+    {
+      "time": 1785777923410,
+      "limit": 50,
+      "inFlight": 42
+    },
+    {
+      "time": 1785777923665,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777923920,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777924175,
+      "limit": 50,
+      "inFlight": 49
+    },
+    {
+      "time": 1785777924431,
+      "limit": 50,
+      "inFlight": 49
+    },
+    {
+      "time": 1785777924691,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777924942,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777925199,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777925448,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777925706,
+      "limit": 50,
+      "inFlight": 50
+    },
+    {
+      "time": 1785777925963,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777926215,
+      "limit": 50,
+      "inFlight": 49
+    },
+    {
+      "time": 1785777926470,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777926721,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777926977,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777927233,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777927490,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777927743,
+      "limit": 50,
+      "inFlight": 50
+    },
+    {
+      "time": 1785777928002,
+      "limit": 50,
+      "inFlight": 44
+    },
+    {
+      "time": 1785777928253,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777928506,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777928762,
+      "limit": 50,
+      "inFlight": 48
+    },
+    {
+      "time": 1785777929015,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777929270,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777929523,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777929782,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777930034,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777930291,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777930543,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777930798,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777931052,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777931306,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777931555,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777931810,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777932061,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777932317,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777932567,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777932824,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777933075,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777933331,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777933584,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777933836,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777934098,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777934355,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777934608,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777934867,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777935115,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777935368,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777935623,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777935873,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777936130,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777936385,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777936641,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777936897,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777937146,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777937397,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777937646,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777937897,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777938153,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777938404,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777938658,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777938908,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777939162,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777939416,
+      "limit": 50,
+      "inFlight": 41
+    },
+    {
+      "time": 1785777939672,
+      "limit": 50,
+      "inFlight": 47
+    },
+    {
+      "time": 1785777939925,
+      "limit": 50,
+      "inFlight": 43
+    },
+    {
+      "time": 1785777940176,
+      "limit": 50,
+      "inFlight": 45
+    },
+    {
+      "time": 1785777940429,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777940681,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777940933,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777941191,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777941443,
+      "limit": 50,
+      "inFlight": 49
+    },
+    {
+      "time": 1785777941694,
+      "limit": 50,
+      "inFlight": 47
+    },
+    {
+      "time": 1785777941949,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777942202,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777942457,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777942709,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777942965,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777943218,
+      "limit": 50,
+      "inFlight": 35
+    },
+    {
+      "time": 1785777943473,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777943725,
+      "limit": 50,
+      "inFlight": 42
+    },
+    {
+      "time": 1785777943979,
+      "limit": 50,
+      "inFlight": 46
+    },
+    {
+      "time": 1785777944234,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777944489,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777944746,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777945003,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777945257,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777945513,
+      "limit": 50,
+      "inFlight": 46
+    },
+    {
+      "time": 1785777945768,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777946023,
+      "limit": 50,
+      "inFlight": 42
+    },
+    {
+      "time": 1785777946274,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777946530,
+      "limit": 50,
+      "inFlight": 43
+    },
+    {
+      "time": 1785777946785,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777947038,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777947295,
+      "limit": 50,
+      "inFlight": 47
+    },
+    {
+      "time": 1785777947546,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777947797,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777948055,
+      "limit": 50,
+      "inFlight": 44
+    },
+    {
+      "time": 1785777948310,
+      "limit": 50,
+      "inFlight": 46
+    },
+    {
+      "time": 1785777948563,
+      "limit": 50,
+      "inFlight": 47
+    },
+    {
+      "time": 1785777948816,
+      "limit": 50,
+      "inFlight": 44
+    },
+    {
+      "time": 1785777949074,
+      "error": "overloaded"
+    }
+  ]
+}

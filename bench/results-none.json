@@ -1,0 +1,689 @@
+{
+  "stats": {
+    "url": "http://localhost:3000/",
+    "connections": 200,
+    "sampleInt": 1000,
+    "pipelining": 1,
+    "duration": 30.26,
+    "samples": 30,
+    "start": "2026-08-03T17:24:46.757Z",
+    "finish": "2026-08-03T17:25:17.014Z",
+    "errors": 0,
+    "timeouts": 0,
+    "mismatches": 0,
+    "non2xx": 0,
+    "resets": 0,
+    "1xx": 0,
+    "2xx": 113291,
+    "3xx": 0,
+    "4xx": 0,
+    "5xx": 0,
+    "statusCodeStats": {
+      "200": {
+        "count": 113291
+      }
+    },
+    "latency": {
+      "average": 52.79,
+      "mean": 52.79,
+      "stddev": 64.59,
+      "min": 16,
+      "max": 368,
+      "p0_001": 16,
+      "p0_01": 17,
+      "p0_1": 18,
+      "p1": 20,
+      "p2_5": 21,
+      "p10": 24,
+      "p25": 28,
+      "p50": 37,
+      "p75": 47,
+      "p90": 54,
+      "p97_5": 313,
+      "p99": 340,
+      "p99_9": 358,
+      "p99_99": 362,
+      "p99_999": 366,
+      "totalCount": 113291
+    },
+    "requests": {
+      "average": 3776.6,
+      "mean": 3776.6,
+      "stddev": 2308.86,
+      "min": 602,
+      "max": 7465,
+      "total": 113291,
+      "p0_001": 602,
+      "p0_01": 602,
+      "p0_1": 602,
+      "p1": 602,
+      "p2_5": 602,
+      "p10": 648,
+      "p25": 666,
+      "p50": 4591,
+      "p75": 5275,
+      "p90": 6091,
+      "p97_5": 7467,
+      "p99": 7467,
+      "p99_9": 7467,
+      "p99_99": 7467,
+      "p99_999": 7467,
+      "sent": 113491
+    },
+    "throughput": {
+      "average": 925218.14,
+      "mean": 925218.14,
+      "stddev": 565664.13,
+      "min": 147490,
+      "max": 1828925,
+      "total": 27756295,
+      "p0_001": 147583,
+      "p0_01": 147583,
+      "p0_1": 147583,
+      "p1": 147583,
+      "p2_5": 147583,
+      "p10": 158847,
+      "p25": 163199,
+      "p50": 1125375,
+      "p75": 1292287,
+      "p90": 1492991,
+      "p97_5": 1829887,
+      "p99": 1829887,
+      "p99_9": 1829887,
+      "p99_99": 1829887,
+      "p99_999": 1829887
+    }
+  },
+  "timeline": [
+    {
+      "time": 1785777887128,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777887289,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777887540,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777887791,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777888038,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777888294,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777888549,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777888794,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777889041,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777889325,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777889566,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777889817,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777890068,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777890319,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777890570,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777890822,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777891077,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777891352,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777891593,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777891861,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777892113,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777892357,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777892623,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777892867,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777893132,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777893386,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777893642,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777893896,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777894147,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777894410,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777894655,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777894910,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777895159,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777895414,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777895666,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777895917,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777896175,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777896445,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777896681,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777896946,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777897204,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777897455,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777897708,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777897965,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777898217,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777898479,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777898731,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777898992,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777899244,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777899505,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777899756,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777900007,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777900265,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777900516,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777900779,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777901042,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777901305,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777901560,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777901812,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777902077,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777902330,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777902582,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777902833,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777903096,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777903346,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777903596,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777903857,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777904122,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777904383,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777904637,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777904887,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777905139,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777905402,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777905654,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777905905,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777906167,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777906418,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777906668,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777906945,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777907187,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777907469,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777907734,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777907973,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777908225,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777908494,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777908737,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777909016,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777909284,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777909524,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777909773,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777910023,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777910286,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777910563,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777910797,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777911068,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777911312,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777911590,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777911824,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777912092,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777912364,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777912604,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777912848,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777913100,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777913356,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777913632,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777913872,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777914120,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777914383,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777914653,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777914893,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777915172,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777915414,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777915674,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777915917,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777916181,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777916424,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777916702,
+      "limit": 0,
+      "inFlight": 0
+    },
+    {
+      "time": 1785777916936,
+      "limit": 0,
+      "inFlight": 0
+    }
+  ]
+}

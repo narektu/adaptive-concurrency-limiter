@@ -1,0 +1,576 @@
+{
+  "stats": {
+    "url": "http://localhost:3000/",
+    "connections": 200,
+    "sampleInt": 1000,
+    "pipelining": 1,
+    "duration": 30.16,
+    "samples": 30,
+    "start": "2026-08-03T17:25:51.240Z",
+    "finish": "2026-08-03T17:26:21.404Z",
+    "errors": 0,
+    "timeouts": 0,
+    "mismatches": 0,
+    "non2xx": 210694,
+    "resets": 0,
+    "1xx": 0,
+    "2xx": 2249,
+    "3xx": 0,
+    "4xx": 210694,
+    "5xx": 0,
+    "statusCodeStats": {
+      "200": {
+        "count": 2249
+      },
+      "429": {
+        "count": 210694
+      }
+    },
+    "latency": {
+      "average": 27.81,
+      "mean": 27.81,
+      "stddev": 6.58,
+      "min": 22,
+      "max": 382,
+      "p0_001": 22,
+      "p0_01": 22,
+      "p0_1": 25,
+      "p1": 26,
+      "p2_5": 26,
+      "p10": 26,
+      "p25": 27,
+      "p50": 27,
+      "p75": 28,
+      "p90": 29,
+      "p97_5": 31,
+      "p99": 44,
+      "p99_9": 90,
+      "p99_99": 357,
+      "p99_999": 381,
+      "totalCount": 212943
+    },
+    "requests": {
+      "average": 7098.54,
+      "mean": 7098.54,
+      "stddev": 209.49,
+      "min": 6105,
+      "max": 7287,
+      "total": 212943,
+      "p0_001": 6107,
+      "p0_01": 6107,
+      "p0_1": 6107,
+      "p1": 6107,
+      "p2_5": 6107,
+      "p10": 6947,
+      "p25": 7091,
+      "p50": 7143,
+      "p75": 7187,
+      "p90": 7223,
+      "p97_5": 7287,
+      "p99": 7287,
+      "p99_9": 7287,
+      "p99_99": 7287,
+      "p99_999": 7287,
+      "sent": 213143
+    },
+    "throughput": {
+      "average": 2040951.47,
+      "mean": 2040951.47,
+      "stddev": 64584.79,
+      "min": 1730892,
+      "max": 2098110,
+      "total": 61230877,
+      "p0_001": 1731583,
+      "p0_01": 1731583,
+      "p0_1": 1731583,
+      "p1": 1731583,
+      "p2_5": 1731583,
+      "p10": 1997823,
+      "p25": 2038783,
+      "p50": 2054143,
+      "p75": 2066431,
+      "p90": 2079743,
+      "p97_5": 2099199,
+      "p99": 2099199,
+      "p99_9": 2099199,
+      "p99_99": 2099199,
+      "p99_999": 2099199
+    }
+  },
+  "timeline": [
+    {
+      "time": 1785777951549,
+      "limit": 32,
+      "inFlight": 6
+    },
+    {
+      "time": 1785777951783,
+      "limit": 14,
+      "inFlight": 1
+    },
+    {
+      "time": 1785777952043,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777952303,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777952559,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777952809,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777953067,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777953320,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777953572,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777953831,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777954082,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777954337,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777954591,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777954847,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777955095,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777955350,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777955599,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777955857,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777956111,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777956368,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777956627,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777956880,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777957131,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777957382,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777957635,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777957885,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777958140,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777958392,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777958649,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777958899,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777959163,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777959417,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777959675,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777959933,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777960190,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777960443,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777960698,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777960953,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777961208,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777961460,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777961710,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777961961,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777962219,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777962473,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777962727,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777962987,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777963235,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777963487,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777963739,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777963996,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777964250,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777964507,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777964757,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777965011,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777965267,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777965518,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777965772,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777966032,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777966286,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777966545,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777966802,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777967052,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777967309,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777967562,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777967815,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777968067,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777968329,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777968580,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777968836,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777969092,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777969345,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777969602,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777969859,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777970119,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777970376,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777970633,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777970889,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777971144,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777971397,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777971661,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777971911,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777972169,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777972418,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777972674,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777972933,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777973184,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777973441,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777973699,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777973958,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777974211,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777974465,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777974722,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777974976,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777975234,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777975483,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777975734,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777975991,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777976246,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777976501,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777976753,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777977006,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777977262,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777977517,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777977770,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777978022,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777978285,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777978536,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777978787,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777979038,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777979291,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777979544,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777979795,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777980055,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777980307,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777980558,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777980815,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777981067,
+      "error": "overloaded"
+    },
+    {
+      "time": 1785777981323,
+      "error": "overloaded"
+    }
+  ]
+}
