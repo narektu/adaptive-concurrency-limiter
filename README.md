@@ -2,7 +2,7 @@
 
 A production-ready Express middleware that implements TCP-Vegas-inspired adaptive concurrency limiting. 
 
-Based on Netflix's `concurrency-limits` Java library, this package watches request latency continuously and adjusts your concurrency ceiling in real-time. It raises the ceiling when a downstream service is healthy, and automatically lowers it the moment queueing starts—preventing timeouts and cascading failures *before* they happen.
+Based on Netflix's `concurrency-limits` Java library, this package watches request latency continuously and adjusts your concurrency ceiling in real-time. It raises the ceiling when a downstream service is healthy, and automatically lowers it the moment queueing starts — preventing timeouts and cascading failures *before* they happen.
 
 ## The Problem with Fixed Limits (Little's Law)
 
