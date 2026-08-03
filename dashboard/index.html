@@ -30,7 +30,7 @@
                { label: 'Limit', borderColor: '#3b82f6', data: [], tension: 0.4 },                                                                                                                                 
                { label: 'In Flight', borderColor: '#10b981', data: [], tension: 0.4 }                                                                                                                              
             ]},                                                                                                                                                                                                     
-            options: { animation: false, scales: { y: { beginAtZero: true, max: 150 } } }                                                                                                                           
+            options: { animation: false, scales: { y: { beginAtZero: true } } }                                                                                                                           
       });                                                                                                                                                                                                         
                                                                                                                                                                                                                   
       const evtSource = new EventSource("/metrics/stream");                                                                                                                                                       
